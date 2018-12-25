@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130E72FD21BF2A850051272B /* Creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130E72FB21BF2A850051272B /* Creature.cpp */; };
+		130E72FF21BF30B80051272B /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130E72FE21BF30B80051272B /* GLUI.framework */; };
+		130E730221C045980051272B /* Fox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130E730021C045980051272B /* Fox.cpp */; };
+		130E730621C0565E0051272B /* Rabbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130E730421C0565E0051272B /* Rabbit.cpp */; };
+		130E730921C0E9880051272B /* BioSystemManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130E730721C0E9880051272B /* BioSystemManager.cpp */; };
+		130E730C21C0EB330051272B /* Shelter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130E730A21C0EB330051272B /* Shelter.cpp */; };
 		13161AC32141F4F700A58038 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13161AC22141F4F700A58038 /* main.cpp */; };
+		13161AD02141F87300A58038 /* OpenGLWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13161ACE2141F87300A58038 /* OpenGLWindow.cpp */; };
+		13161AD621426C9300A58038 /* AnimationControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13161AD421426C9300A58038 /* AnimationControl.cpp */; };
+		13690E472180F77E00E2A0A4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13161ACC2141F57700A58038 /* OpenGL.framework */; };
+		13690E482180F78300E2A0A4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13161ACA2141F56500A58038 /* GLUT.framework */; };
+		137CA8F821C5D3F4007ADC4E /* Grass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 137CA8F621C5D3F4007ADC4E /* Grass.cpp */; };
+		13D72B82214B2A440081FB13 /* MyData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D72B80214B2A440081FB13 /* MyData.cpp */; };
+		13EC92422154283D00058F45 /* SplineCalculation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13EC92402154283C00058F45 /* SplineCalculation.cpp */; };
+		13EC92452155FD2E00058F45 /* SpeedFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13EC92432155FD2E00058F45 /* SpeedFunc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +37,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		130E72FB21BF2A850051272B /* Creature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Creature.cpp; sourceTree = "<group>"; };
+		130E72FC21BF2A850051272B /* Creature.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Creature.hpp; sourceTree = "<group>"; };
+		130E72FE21BF30B80051272B /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLUI.framework; sourceTree = "<group>"; };
+		130E730021C045980051272B /* Fox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fox.cpp; sourceTree = "<group>"; };
+		130E730121C045980051272B /* Fox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fox.hpp; sourceTree = "<group>"; };
+		130E730421C0565E0051272B /* Rabbit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rabbit.cpp; sourceTree = "<group>"; };
+		130E730521C0565E0051272B /* Rabbit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rabbit.hpp; sourceTree = "<group>"; };
+		130E730721C0E9880051272B /* BioSystemManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BioSystemManager.cpp; sourceTree = "<group>"; };
+		130E730821C0E9880051272B /* BioSystemManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BioSystemManager.hpp; sourceTree = "<group>"; };
+		130E730A21C0EB330051272B /* Shelter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shelter.cpp; sourceTree = "<group>"; };
+		130E730B21C0EB330051272B /* Shelter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shelter.hpp; sourceTree = "<group>"; };
 		13161ABF2141F4F700A58038 /* test2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test2; sourceTree = BUILT_PRODUCTS_DIR; };
 		13161AC22141F4F700A58038 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13161ACA2141F56500A58038 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		13161ACC2141F57700A58038 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		13161ACE2141F87300A58038 /* OpenGLWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLWindow.cpp; sourceTree = "<group>"; };
+		13161ACF2141F87300A58038 /* OpenGLWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLWindow.hpp; sourceTree = "<group>"; };
+		13161AD421426C9300A58038 /* AnimationControl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationControl.cpp; sourceTree = "<group>"; };
+		13161AD521426C9300A58038 /* AnimationControl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AnimationControl.hpp; sourceTree = "<group>"; };
+		137CA8F621C5D3F4007ADC4E /* Grass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grass.cpp; sourceTree = "<group>"; };
+		137CA8F721C5D3F4007ADC4E /* Grass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Grass.hpp; sourceTree = "<group>"; };
+		13D72B80214B2A440081FB13 /* MyData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyData.cpp; sourceTree = "<group>"; };
+		13D72B81214B2A440081FB13 /* MyData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyData.hpp; sourceTree = "<group>"; };
+		13EC92402154283C00058F45 /* SplineCalculation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplineCalculation.cpp; sourceTree = "<group>"; };
+		13EC92412154283D00058F45 /* SplineCalculation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplineCalculation.hpp; sourceTree = "<group>"; };
+		13EC92432155FD2E00058F45 /* SpeedFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpeedFunc.cpp; sourceTree = "<group>"; };
+		13EC92442155FD2E00058F45 /* SpeedFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpeedFunc.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130E72FF21BF30B80051272B /* GLUI.framework in Frameworks */,
+				13690E482180F78300E2A0A4 /* GLUT.framework in Frameworks */,
+				13690E472180F77E00E2A0A4 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +85,7 @@
 			children = (
 				13161AC12141F4F700A58038 /* test2 */,
 				13161AC02141F4F700A58038 /* Products */,
+				13161AC92141F56500A58038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +100,57 @@
 		13161AC12141F4F700A58038 /* test2 */ = {
 			isa = PBXGroup;
 			children = (
+				137CA8F921C5D492007ADC4E /* OpenGL */,
+				137CA8F521C5D3D5007ADC4E /* BioSystem */,
 				13161AC22141F4F700A58038 /* main.cpp */,
+				13161AD421426C9300A58038 /* AnimationControl.cpp */,
+				13161AD521426C9300A58038 /* AnimationControl.hpp */,
+				13D72B81214B2A440081FB13 /* MyData.hpp */,
+				13D72B80214B2A440081FB13 /* MyData.cpp */,
+				13EC92402154283C00058F45 /* SplineCalculation.cpp */,
+				13EC92412154283D00058F45 /* SplineCalculation.hpp */,
+				13EC92432155FD2E00058F45 /* SpeedFunc.cpp */,
+				13EC92442155FD2E00058F45 /* SpeedFunc.hpp */,
 			);
 			path = test2;
+			sourceTree = "<group>";
+		};
+		13161AC92141F56500A58038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130E72FE21BF30B80051272B /* GLUI.framework */,
+				13161ACC2141F57700A58038 /* OpenGL.framework */,
+				13161ACA2141F56500A58038 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		137CA8F521C5D3D5007ADC4E /* BioSystem */ = {
+			isa = PBXGroup;
+			children = (
+				130E730721C0E9880051272B /* BioSystemManager.cpp */,
+				130E730821C0E9880051272B /* BioSystemManager.hpp */,
+				130E72FB21BF2A850051272B /* Creature.cpp */,
+				130E72FC21BF2A850051272B /* Creature.hpp */,
+				130E730021C045980051272B /* Fox.cpp */,
+				130E730121C045980051272B /* Fox.hpp */,
+				130E730421C0565E0051272B /* Rabbit.cpp */,
+				130E730521C0565E0051272B /* Rabbit.hpp */,
+				130E730A21C0EB330051272B /* Shelter.cpp */,
+				130E730B21C0EB330051272B /* Shelter.hpp */,
+				137CA8F621C5D3F4007ADC4E /* Grass.cpp */,
+				137CA8F721C5D3F4007ADC4E /* Grass.hpp */,
+			);
+			path = BioSystem;
+			sourceTree = "<group>";
+		};
+		137CA8F921C5D492007ADC4E /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				13161ACE2141F87300A58038 /* OpenGLWindow.cpp */,
+				13161ACF2141F87300A58038 /* OpenGLWindow.hpp */,
+			);
+			path = OpenGL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130E730221C045980051272B /* Fox.cpp in Sources */,
+				13EC92422154283D00058F45 /* SplineCalculation.cpp in Sources */,
+				13161AD02141F87300A58038 /* OpenGLWindow.cpp in Sources */,
+				137CA8F821C5D3F4007ADC4E /* Grass.cpp in Sources */,
+				130E730921C0E9880051272B /* BioSystemManager.cpp in Sources */,
+				13EC92452155FD2E00058F45 /* SpeedFunc.cpp in Sources */,
+				13161AD621426C9300A58038 /* AnimationControl.cpp in Sources */,
+				130E72FD21BF2A850051272B /* Creature.cpp in Sources */,
 				13161AC32141F4F700A58038 /* main.cpp in Sources */,
+				13D72B82214B2A440081FB13 /* MyData.cpp in Sources */,
+				130E730621C0565E0051272B /* Rabbit.cpp in Sources */,
+				130E730C21C0EB330051272B /* Shelter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,16 +339,32 @@
 		13161AC72141F4F700A58038 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR3DP5P7FS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		13161AC82141F4F700A58038 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR3DP5P7FS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
